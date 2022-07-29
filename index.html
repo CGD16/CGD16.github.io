@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>CGD16 Website</title>
+</head>
+<body>
+    <!--Navbar - Menü-Leiste-->
+    <!-- also for navigation for logo, menue ... -->
+    <div class="navbar">
+        <!-- damit kann man alle elemente auf einmal formatieren -->
+        <div class="container flex">
+            	<h1 class="log"> <a href="index.html">CGD</a></h1>
+                <!-- <h1 class="log">CGD</h1> -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </div>
+
+
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>That's me</h1>
+                <p> Currently I am studying Bachelor of Data Science at Friedrich-Alexander-University (FAU) Erlangen-Nuremberg, 
+                    where I study subjects like algorithms and data structures, machine learning, data analysis etc. 
+                    Skilled in Python, Java, SQL, Microsoft Excel, HTML and CSS </p>
+                    <!-- formated as a button -->
+                <a href="about.html" class="btn btn-outline">Read More</a>
+            </div>
+            <div class="showcase-form card">
+                <h2>Contact me (Demo)</h2>
+                <form> 
+                    <div class="form-control">
+                        <input type="text" name ="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name ="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name ="message" placeholder="Message" required>
+                    </div>        
+                    <input type="submit" value="Send" class="btn btn primary">
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Stats -->
+    <section>
+        <div class="stats">
+            <div class="container">
+                <h3 class="stats-heading txt-center my-1">
+                    Welcome to the best platform for building
+                    appliction of all types with modern architectures 
+                    and scaling
+                </h3>
+    
+                <div class="grid grid-3 text-center my-4">
+                    <div>
+                        <i class="fas fa-server fa-3x"></i>
+                        <h3>10,349,405</h3>
+                        <p class="text-secoundary">Deployments</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-upload fa-3x"></i>
+                        <h3>987TB</h3>
+                        <p class="text-secoundary">Published</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-project-diagram fa-3x"></i>
+                        <h3>2,343,265</h3>
+                        <p class="text-secoundary">Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
