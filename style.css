@@ -229,10 +229,13 @@ img {
 
 
 /* Footer */
+.col-1-of-2 {
+    position: relative;
+}
 
-.copyright{
-    max-width: auto; 
-    margin-right: 0 right;
-    overflow: auto;
-    padding: 0 -40px;
+
+.col-1-of-2 .copyright{
+    position:absolute;
+    right: 10px;
+    bottom: 30px;
 }
