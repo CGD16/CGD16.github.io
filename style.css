@@ -83,8 +83,8 @@ img {
 .showcase{
     /* Farbe bis Read more, wenn height: auto*/
     height:  400px; 
-    background: rgb(9,92,117);
-    background: linear-gradient(90deg, rgba(9,92,117,1) 25%, rgba(9,72,121,1) 100%);
+    background-color: rgb(9,92,117);
+    background-color: linear-gradient(90deg, rgba(9,92,117,1) 25%, rgba(9,72,121,1) 100%);
     color: #fff;
     position: relative;
 }
@@ -146,8 +146,7 @@ img {
     bottom: 0px;
     right: 0;
     left: 0;
-    background-color: rgb(9,92,117);
-    background-color: linear-gradient(90deg, rgba(9,92,117,1) 25%, rgba(9,72,121,1) 100%);
+    background:#fff;
     /* 082c6c */
     
     /*  
