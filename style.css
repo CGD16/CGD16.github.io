@@ -162,7 +162,8 @@ img {
 /* Utilities */
 /* Navigator maximale Weite 1100px dann wird es da stehen*/
 .container {
-    max-width: 5000px;
+    /* max-width: 5000; */
+    max-width: auto; 
     margin-left: 0 auto;
     /* 10px white space from the top */
     /* we fixed it with "overflow" */
