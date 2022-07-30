@@ -226,3 +226,13 @@ img {
 }
 
 
+
+
+/* Footer */
+
+.copyright{
+    max-width: auto; 
+    margin-right: 0 right;
+    overflow: auto;
+    padding: 0 -40px;
+}
