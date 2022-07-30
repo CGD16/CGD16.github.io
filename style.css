@@ -141,12 +141,12 @@ img {
     content: '';
     position: absolute;
     /* height: 100px; */
-    height: 50%;
+    height: 100px;
     /* bottom: -70; */
-    bottom: 0px;
+    bottom: -70px;
     right: 0;
     left: 0;
-    background:#fff;
+    /* background:#fff; */
     /* 082c6c */
     
     /*  
