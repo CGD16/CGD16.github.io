@@ -159,71 +159,42 @@ img {
 
 }
 
-/* Utilities */
-/* Navigator maximale Weite 1100px dann wird es da stehen*/
-.container {
-    /* max-width: 5000; bzw 1500 bzw 1100 */
-    max-width: auto; 
-    margin-left: 0 auto;
-    /* 10px white space from the top */
-    /* we fixed it with "overflow" */
-    overflow: auto;
-    padding: 0 40px;
 
-}
 
-.card {
-    background-color: #fff;
-    color: #333;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-    padding: auto;
-    margin: 10px;
-}
 
-/* send button */
-.btn {
-    display: inline-block;
-    padding: 10px 30px;
-    cursor: pointer;
-    background-color: var(--primary-color);
-    color: fff;
-    border-radius: 5px;
-}
 
-.btn-outline {
-    background-color: transparent;
-    border: 1px #fff solid;
-}
 
-.btn:hover{
-    transform: scale(.99);
-}
 
-.flex {
-    /* nav (a block) is now on the side of the h1 */
-    display: flex;
-    justify-content: center; /* column is now the main-axes */
-    flex-direction: row;
-    align-items: center;
-    height: 100%;
-}
 
-.grid{
-    display: grid;
-    /* grid-template-columns: 1fr 1fr; - make it even */
-    grid-template-columns: repeat(2, 1fr);
-    /* gab: 20px; muss noch gefixt werden??*/ 
-    gap: 20px;
-    justify-content: center; 
-    align-items: center;
-    /* 100% which is 400px (.showcase) */
-    height: 100%; 
-}
 
-.grid-3{
-    grid-template-columns: repeat(3, 1fr);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
