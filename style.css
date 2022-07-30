@@ -155,14 +155,14 @@ img {
 /* Stats */
 .stats{
     /* eigentlich padding-top: 100px;*/
-    padding-top: 100px;
+    padding-top: 160px;
 
 }
 
 /* Utilities */
 /* Navigator maximale Weite 1100px dann wird es da stehen*/
 .container {
-    /* max-width: 5000; */
+    /* max-width: 5000; bzw 1500 bzw 1100 */
     max-width: auto; 
     margin-left: 0 auto;
     /* 10px white space from the top */
