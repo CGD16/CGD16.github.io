@@ -140,11 +140,14 @@ img {
 .showcase::after {
     content: '';
     position: absolute;
+    /* height: 100px; */
     height: 50%;
-    bottom: -70px;
+    /* bottom: -70; */
+    bottom: 0px;
     right: 0;
     left: 0;
-    background-color: #234c92; 
+    background-color: rgb(9,92,117);
+    background-color: linear-gradient(90deg, rgba(9,92,117,1) 25%, rgba(9,72,121,1) 100%);
     /* 082c6c */
     
     /*  
