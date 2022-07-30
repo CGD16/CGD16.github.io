@@ -82,7 +82,8 @@ img {
 /* Showcase */
 .showcase{
     /* Farbe bis Read more, wenn height: auto*/
-    height:  400px; 
+    height:  auto; 
+    /* height:  400px;  */
     background-color: rgb(9,92,117);
     background-color: linear-gradient(90deg, rgba(9,92,117,1) 25%, rgba(9,72,121,1) 100%);
     color: #fff;
