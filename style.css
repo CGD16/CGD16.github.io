@@ -142,8 +142,8 @@ img {
     position: absolute;
     height: 100px;
     bottom: -70px;
-    left: 0;
     right: 0;
+    left: 0;
     background: #fff;
     transform: skewY(-3deg);
     -webkit-transform: skewY(-3deg);
@@ -155,7 +155,7 @@ img {
 /* Stats */
 .stats{
     /* eigentlich padding-top: 100px;*/
-    padding-top: 160px;
+    padding-top: 100px;
 
 }
 
