@@ -1,0 +1,27 @@
+.bodysetion{
+    font-family: poppins;
+    background: #eee;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 5% auto;
+}
+
+.single-price{
+    width: 33%;
+    background-color: #262626;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+
+.price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+}
