@@ -78,6 +78,10 @@ pre {
   border-bottom: 2px var(--primary-color) solid; /*#fff*/
 }
 
+.log a:hover {
+    /*for the logo - no border under the logo*/
+    border-bottom: none;
+} 
 .navbar .flex {
   justify-content: space-between;
 }
