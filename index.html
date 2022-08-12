@@ -3,165 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="style.css">
-    <title>CGD16 Website</title>
+    <title>CGD Website</title>
 </head>
 <body>
-    <!--Navbar - Menue-Leiste-->
-    <!-- also for navigation for logo, menue ... -->
+    <!-- Navbar -->
     <div class="navbar">
-        <!-- damit kann man alle elemente auf einmal formatieren -->
         <div class="container flex">
-            	<h1 class="log"> <a href="index.html">CGD</a></h1>
-                <!-- <h1 class="log">CGD</h1> -->
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+            <h1 class="logo">CGD.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
-
-    <!-- Showcase -->
-    <section class="showcase">
+    <!-- Head -->
+    <section class="features-head bg-primary py-3">
         <div class="container grid">
-            <div class="showcase-text">
-                <h1>That's me</h1>
-                <p> Currently I am studying Bachelor of Data Science at Friedrich-Alexander-University (FAU) Erlangen-Nuremberg, 
-                    where I am learning subjects like algorithms and data structures, machine learning, data analysis etc. 
-                    I am experienced in Python, Java, SQL, Microsoft Excel, HTML and CSS </p>
-                    <!-- formated as a button -->
-                <a href="about.html" class="btn btn-outline">Read More</a>
+            <div>
+                <h1 class="xl">Features</h1>
+                <p class="lead">
+                    Check out the features of Loruki that separate us from the
+						competition
+                </p>
             </div>
-            <div class="showcase-form card">
-                <h2>Contact me</h2>
-                <form> 
-                    <div class="form-control">
-                        <input type="text" name ="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-control">
-                        <input type="text" name ="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-control">
-                        <input type="text" name ="message" placeholder="Message" required>
-                    </div>        
-                    <input type="submit" value="Send" class="btn btn primary">
-
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- Stats -->
-    <section>
-        <div class="stats">
-            <div class="container">
-                <h3 class="stats-heading txt-center my-1">
-                    Welcome to my website. This is a test!!
-                </h3>
-    
-                <div class="grid grid-3 text-center my-4">
-                    <div>
-                        <i class="fas fa-server fa-3x"></i>
-                        <h3>10,349,405</h3>
-                        <p class="text-secoundary">Deployments</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-upload fa-3x"></i>
-                        <h3>987TB</h3>
-                        <p class="text-secoundary">Published</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-project-diagram fa-3x"></i>
-                        <h3>2,343,265</h3>
-                        <p class="text-secoundary">Projects</p>
-                    </div>
-                </div>
-            </div>
+            <img src="images/server.png" alt="">
         </div>
     </section>
 
-
-    <!-- Languages -->
-    <section class="languages">
-        <h2 class="md text-center my-2">
-            Supported Languages
-        </h2>
-        <div class="container flex">
-
-            <div class="card">
-                <h4>Python</h4>
-                <img src="images/logos/python.png" alt="">
+    <!-- Sub head -->
+    <section class="features-sub-head bg-light py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="md">CGD16</h1>
+                <p>
+                    This is a website. Designed for smartphones, computers and tablets
+                </p>
             </div>
-            <div class="card">
-                <h4>Scala</h4>
-                <img src="images/logos/scala.png" alt="">
-            </div>
-            <div class="card">
-                <h4>SQL</h4>
-                <img src="images/logos/SQL.png" alt="">
-            </div>
-            <div class="card">
-                <h4>Java</h4>
-                <img src="images/logos/Java.png" alt="">
-            </div>
+            <img src="images/server2.png" alt="">
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <section class="features-main my-2">
+        <div class="container grid grid-3">
+            <div class="card flex">
+                <i class="fas fa-server fa-3x"></i>
+                <p>This is a website. Designed for smartphones, computers and tablets</p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-network-wired fa-3x"></i>
+                <p>
+                    This is a website. Designed for smartphones, computers and tablets
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <p>
+                    This is a website. Designed for smartphones, computers and tablets
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-database fa-3x"></i>
+                <p>
+                    This is a website. Designed for smartphones, computers and tablets
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-power-off fa-3x"></i>
+                <p>
+                    This is a website. Designed for smartphones, computers and tablets
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-upload fa-3x"></i>
+                <p>
+                    This is a website. Designed for smartphones, computers and tablets
+                </p>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="grid">
-                <div class="col-1-of-2">
-                    <div class="social-links">
-                        <a href="https://de-de.facebook.com" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/CGD161" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/cgd_16_/" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/changgeng-drewes-44801819b/" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/CGD16" class="social-link"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <div class="col-1-of-2">
-                    <p class="copyright">
-                    &copy; Copyright 2022 by CGD16
-                    </p>
-                </div>
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>CGD
+                </h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://de-de.facebook.com" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/CGD161" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/cgd_16_/" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/changgeng-drewes-44801819b/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/CGD16" class="social-link"><i class="fab fa-github"></i></a>
             </div>
         </div>
-
+    </footer>
 </body>
 </html>
