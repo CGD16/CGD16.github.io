@@ -65,5 +65,11 @@
 
 .single-price a {
     text-decoration: none;
-    background: #000;
+    background: #da4357;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
 }
