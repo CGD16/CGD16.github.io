@@ -84,3 +84,8 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.single-price:hover a {
+    background-color: #135096;
+    color: #fff;
+}
