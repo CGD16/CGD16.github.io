@@ -31,7 +31,8 @@
     height: 120px; /* 120 */
     border-radius: 50%;
     border: 2px solid #da4357; 
-    margin: 5% auto 0 auto;
+    margin: 0 auto;
+    /*margin: 5% auto 0 auto;*/
     text-align: center;
 }
 
