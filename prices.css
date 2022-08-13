@@ -19,7 +19,7 @@
 .single-price{
     width: 33%;
     background-color: #135096; /* #262626 */
-    /* float: left; */
+    float: left;
     margin-top: 2%;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
     text-align: center;
