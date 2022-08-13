@@ -10,7 +10,7 @@
 }
 
 .wrapper {
-    background-color: #047aed;
+    background: #047aed;
     overflow-x: hidden;
     overflow-y: hidden;
     width: 900px;
