@@ -266,21 +266,32 @@ pre {
   margin: 0 10px;
 }
 
-.fa-github:hover {
-  color: #000000;
-}
-
 .fa-facebook:hover {
   color: #1773EA;
+}
+
+.fa-twitter:hover {
+  color: #1C9CEA;
 }
 
 .fa-instagram:hover {
   color: #B32E87;
 }
 
-.fa-twitter:hover {
-  color: #1C9CEA;
+.fa-linkedin:hover{
+  color: #0e76a8;
 }
+
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-github:hackerrank {
+  color: #18ad1a;
+}
+
+
+
 
 /* Animations */
 @keyframes slideInFromLeft {
