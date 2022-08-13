@@ -28,9 +28,9 @@
 
 .price {
     width: 120px;
-    height: 100px;
+    height: 100px; /* 120 */
     border-radius: 50%;
-    border: 2px solid #da4357;
+    border: 4px solid #da4357; /*2px */
     margin: 5% auto 0 auto;
     text-align: center;
 }
