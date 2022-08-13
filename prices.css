@@ -28,7 +28,7 @@
 
 .price {
     width: 120px;
-    height: 120px; /* 120 */
+    height: 75px; /* 120 */
     border-radius: 50%;
     border: 2px solid #da4357; 
     margin: 0 auto;
