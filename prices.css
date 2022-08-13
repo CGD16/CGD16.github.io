@@ -3,11 +3,15 @@
 }
 
 .body{
+    overflow-x: hidden;
+    overflow-y: hidden;
     font-family: poppins;
     background: #eee;
 }
 
 .wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
     width: 900px;
     margin: 5% auto;
 }
