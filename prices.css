@@ -6,11 +6,10 @@
     overflow-x: hidden;
     overflow-y: hidden;
     font-family: poppins;
-    background: #eee;
+    background: #047aed; /*#eee*/
 }
 
 .wrapper {
-    background: #047aed;
     overflow-x: hidden;
     overflow-y: hidden;
     width: 900px;
