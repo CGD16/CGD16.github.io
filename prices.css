@@ -22,7 +22,7 @@
     float: left;
     margin-top: 2%;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
-    text-align: auto auto; /*center*/
+    text-align: center;
     transition: 0.9s;
 }
 
