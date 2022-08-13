@@ -9,6 +9,10 @@
     background: #eee;
 }
 
+.md{
+    font-weight: bold;
+}
+
 .wrapper {
     overflow-x: hidden;
     overflow-y: hidden;
