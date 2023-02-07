@@ -8,21 +8,27 @@ button.addEventListener("click", function () {
   output.innerHTML = result;
 });
 
+
 function checkPrime(n) {
-  if (n <= 0) {
-    return "Zahlen ≤ 0 sind nicht definiert";
-  }
-  let primeList = [];
-  for (let i = 1; i <= n; i++) {
-    if (n % i === 0) {
-      primeList.push(i);
+    try {
+      if (n <= 0) {
+        throw new Error("Zahlen <= 0 sind nicht definiert");
+      }
+    } catch (error) {
+      return error.message;
+    }
+    const divisors = [];
+    for (let i = 1; i <= n; i++) {
+      if (n % i === 0) {
+        divisors.push(i);
+      }
+    }
+    if (divisors.length === 2 && divisors.includes(1) && divisors.includes(n)) {
+      return "Primzahl";
+    } else if (n === 1) {
+      return "Keine Primzahl";
+    } else {
+      return "Keine Primzahl";
     }
   }
-  if (primeList.length === 2 && primeList.includes(1) && primeList.includes(n)) {
-    return "Primzahl";
-  } else if (n === 1) {
-    return "Keine Primzahl";
-  } else {
-    return "Keine Primzahl, kann durch folgende Zahlen teilen: " + primeList.join(", ");
-  }
-}
+  
