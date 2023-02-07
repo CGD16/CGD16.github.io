@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="style.css">
-    <title>CGD Website</title>
-</head>
+    <link rel="stylesheet" type="text/css" href="primnumber.css">
+    <title>Primzahl Überprüfung</title>
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
     <div class="navbar">
         <div class="container flex">
@@ -24,21 +24,14 @@
         </div>
     </div>
 
-    <!-- Head -->
-    <section class="features-head bg-primary py-3">
-        <div class="container grid">
-            <div>
-                <h1 class="xl">About me</h1>
-                <p class="lead">
-                    Currently I am studying Bachelor of Data Science at 
-                    Friedrich-Alexander-University (FAU) Erlangen-Nuremberg, 
-                    where I am learning subjects like algorithms and data structures, 
-                    machine learning, data analysis etc. I am experienced in 
-                    Python (PyTorch), Java, Microsoft Excel, HTML and CSS
-                </p>
-            </div>
-        </div>
-    </section>
+    <!-- Primzahlen -->
+    <h1>Primzahl Überprüfung</h1>
+    <input type="number" id="input-number">
+    <button id="check-button">Überprüfen</button>
+    <div id="output"></div>
+    <script type="text/javascript" src="primnumber.js"></script>
+
+
 
     <!-- Footer -->
     <footer class="footer bg-dark py-5">
@@ -61,5 +54,5 @@
             </div>
         </div>
     </footer>
-</body>
+  </body>
 </html>
