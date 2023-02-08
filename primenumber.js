@@ -30,7 +30,7 @@ function checkPrime(n) {
     } else if (n == 1) {
       return "Keine Primzahl";
     } else {
-      return "Keine Primzahl, teilbar durch ${primeList.join(", ")}";
+      return "Keine Primzahl, teilbar durch ${primeList.join(', ')}";
     }
   }
 
