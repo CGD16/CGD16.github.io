@@ -24,10 +24,9 @@ function checkPrime(n) {
         primeList.push(i);
       }
     }
-  
     if (primeList.length == 2 && primeList.includes(1) && primeList.includes(n)) {
       return "Primzahl";
-    } else if (n == 1) {
+    } else if (n === 1) {
       return "Keine Primzahl";
     } else {
       return `Keine Primzahl, teilbar durch ${primeList.join(", ")}`;
